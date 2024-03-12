@@ -1,0 +1,45 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    background-color: lightblue;
+    padding: 100px;
+    
+}
+
+#lewy, #srodek, #prawy{
+    background-color: dodgerblue;
+    color: white;
+    width: 20%;
+    height: 220px;
+}
+
+#srodek, #prawy{
+    width: 40%;
+    text-align: center;
+}
+
+a {
+    border: 1px dashed dimgray;
+    background-color: gold;
+    color: darkred;
+    padding: 10px;
+}
+
+/* form { 
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+} */
+
+footer { 
+    display: flex;    
+}
